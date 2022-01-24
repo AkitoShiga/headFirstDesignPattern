@@ -6,7 +6,7 @@ public class App {
             new CurrentConditionsDisplay(weatherData);
 
         //StatisticsDisplay statisticsDisplay = new StatisticsDisplay(weatherData);
-        ForecastDisplay forecastDisplay = new ForecastDisplay(weatherData);
+        ForecastDisplay forecastDisplay     = new ForecastDisplay(weatherData);
 
         weatherData.setMeasurements(27, 65, 30.4f);
         weatherData.setMeasurements(28, 70, 29.2f);
