@@ -3,6 +3,11 @@ public abstract class Pizza {
     String name;
     String dough;
     String sauce;
+    Veggies veggies[];
+    Cheese cheese;
+    Pepperoni pepperoni;
+    Clams clam;
+    abstract void prepare();
     ArrayList toppings = new ArrayList();
 
     void prepare() {
