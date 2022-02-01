@@ -1,7 +1,7 @@
 public class SoldOutState implements State {
     GumballMachine gumballMachine;
 
-    public SoldOutState(GumballMacine gumballMachine) {
+    public SoldOutState(GumballMachine gumballMachine) {
         this.gumballMachine = gumballMachine;
     }
 

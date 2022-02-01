@@ -1,7 +1,7 @@
 public class SoldState implements State {
     GumballMachine gumballMachine;
 
-    public HasQuarterState(GumballMacine gumballMachine) {
+    public SoldState(GumballMacine gumballMachine) {
         this.gumballMachine = gumballMachine;
     }
 
