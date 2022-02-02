@@ -3,5 +3,4 @@ interface State {
     public void ejectQuarter();
     public void turnCrank();
     public void dispense();
-
 }
